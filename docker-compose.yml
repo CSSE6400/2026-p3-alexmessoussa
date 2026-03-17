@@ -14,6 +14,6 @@ services:
     environment: 
       SQLALCHEMY_DATABASE_URI: "postgresql://administrator:verySecretPassword@database:5432/todo" 
     ports: 
-      - "6400:6400" 
+      - "6500:6400" 
     depends_on: 
       - database
